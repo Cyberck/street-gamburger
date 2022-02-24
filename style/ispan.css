@@ -1,0 +1,334 @@
+@import 'fonts.css';
+
+
+:root {
+    --RBL: 'Raleway-Black';
+    --RLB: 'Raleway-Bold';
+    --RRL: 'Raleway-Regular';
+    --RT: 'Raleway-Thin';
+    --RB: 'Roboto-Bold';
+    --RR: 'Roboto-Regular';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--RR);
+}
+
+body {
+    background: black;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: black;
+}
+
+.nav {
+    background: rgba(0, 0, 0, 0.89);
+}
+
+.nav__one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+}
+
+.nav__list-one {
+    display: flex;
+}
+
+.nav__one-link {
+    margin-left: 20px;
+    color: white;
+}
+
+.nav__ul-one li:first-of-type {
+    margin-right: 645px;
+}
+
+.nav__two1 {
+    border: 1px solid rgba(125, 115, 115, 0.5);
+}
+
+.nav__two {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0 6px 0;
+}
+
+.nav__list-two {
+    display: flex;
+    align-items: center;
+}
+
+.nav__two-title {
+    font-size: 36px;
+    line-height: 30px;
+    color: white;
+    padding: 12px 18px 11px 18px;
+    background: rgba(10, 148, 24, 0.75);
+    border: 4px solid #06600F;
+    border-radius: 4px;
+}
+
+.nav__two-link {
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 19px;
+    font-family: var(--RR);
+}
+
+.header__lungs {
+    background: url(../images/burger1.jpg) no-repeat center /cover;
+    height: 700px;
+    padding-top: 167px;
+    padding-bottom: 179px;
+}
+
+.header__lungs-h1 {
+    font-size: 72px;
+    line-height: 55px;
+    color: #69CF17;
+    font-family: var(--RBL);
+    font-weight: 900;
+}
+
+.header__lungs-h2 {
+    font-size: 36px;
+    line-height: 17px;
+    font-family: var(--RR);
+    color: #69CF17;
+    margin-top: 16px;
+    margin-bottom: 18px;
+}
+
+.header__lungs-p {
+    color: white;
+    font-family: 'Raleway-Regular';
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.header__lungs-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__lungs-box_h2 {
+    font-size: 50px;
+    font-family: 'Raleway-Regular';
+    line-height: 25px;
+    color: white;
+    font-weight: 100;
+    padding: 33px 76px 33px 76px;
+    background: rgba(105, 207, 23, 0.5);
+}
+
+.header__lungs-box_h3 {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: white;
+    height: 51px;
+    padding: 15px 71px 15px 70px;
+    background: linear-gradient(90deg, #69CF17 0%, #417D11 100%);
+    border-radius: 6px;
+    margin-top: 56px;
+}
+
+.main {
+    background: black;
+}
+
+.main__title-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #69CF17;
+    font-size: 55px;
+    line-height: 65px;
+    text-shadow: 0px 0px 15px rgba(191, 171, 171, 0.4);
+    text-transform: uppercase;
+    background: url(../images/photo_cropped\ 1.jpg) no-repeat center /cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 400px;
+}
+
+.main__text-p {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: var(--RB);
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.main__title-h3 {
+    font-size: 50px;
+    line-height: 40px;
+    font-family: var(--Rb);
+    color: #69CF17;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    text-align: center;
+}
+
+.main__maps {
+    border: 2px solid red;
+}
+
+.main__maps:hover {
+    border: 2px solid blue;
+}
+
+.main__maps iframe {
+    width: 100%;
+}
+
+.footer {
+    background: linear-gradient(180deg, #000000 0%, rgba(105, 207, 23, 0.5) 100%);
+}
+
+.footer__uno {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left-title {
+    margin-top: 30px;
+    margin-bottom: 92;
+    color: white;
+    background: rgba(10, 148, 24, 0.75);
+    border: 4px solid #06600F;
+    border-radius: 4px;
+    padding: 12px 18px 11px 18px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 30px;
+    font-family: var(--RB);
+}
+
+.footer__right-tel {
+    color: white;
+    margin-top: 46px;
+}
+
+.footer__ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    padding-bottom: 81px;    
+}
+
+.footer__ul-li {
+    color: white;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: 20px;     
+}
+
+.footer__off {
+    padding-top: 1px;
+    padding-bottom: 19px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;    
+}
+
+@media (max-width: 1200px) {
+
+    .nav__one {
+        justify-content: center;
+    }
+
+    .nav__ul-one li:first-of-type {
+        margin-right: 0;
+    } 
+}
+
+@media (max-width: 700px) {
+
+    .nav__two1-top {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav__two {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: max-content;
+    }
+
+    .nav__two-title {
+        margin: 10px 0;
+    }
+
+    .header__lungs-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__lungs-h1 {
+        font-size: 50px;    
+    }
+
+    .header__lungs-p {
+        text-align: justify;
+        overflow: auto;
+        max-height: 100px;
+        width: 100%;
+    }
+
+    .header__lungs-box {
+        flex-direction: column;
+    }
+
+    .main__text-p {
+        overflow: auto;
+        max-height: 150px;
+        width: 100%;
+    }
+
+    .main__title-h3 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav__list-one {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav__list-two {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__uno {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
